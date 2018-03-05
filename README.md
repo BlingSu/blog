@@ -2,6 +2,8 @@
 
 
 ### JavaScript设计模式(持续更新)
+- [面向对象编程]()
+    - [函数编写的几种方式]()
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/js-sort-algorithm)  
