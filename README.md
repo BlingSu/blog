@@ -4,6 +4,7 @@
 ### JavaScript设计模式(持续更新)
 - <a href="javascript:;">面向对象编程</a>
     - [函数编写的几种方式](https://github.com/angelasubi/design-patterns/tree/master/demo1/1)
+    - [封装-继承-多态](https://github.com/angelasubi/design-patterns/tree/master/demo1/2)
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/js-sort-algorithm)  
