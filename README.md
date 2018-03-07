@@ -5,6 +5,8 @@
 - <a href="javascript:;">面向对象编程</a>
     - [函数编写的几种方式](https://github.com/angelasubi/design-patterns/blob/master/demo1/1/1.js)
     - [封装-继承-多态](https://github.com/angelasubi/design-patterns/blob/master/demo1/2/2.js)
+- <a href="javascript:;">创建型设计模式</a>
+    - [简单工厂模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/1/1.js)
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/article/blob/master/js-sort-algorithm.md)  
