@@ -14,6 +14,7 @@
     - [单例模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/6.js)
 - <a href="javascript:;">结构型设计模式</a>
     - [外观模式](https://github.com/angelasubi/design-patterns/blob/master/demo3/1.js)
+    - [适配器模式](https://github.com/angelasubi/design-patterns/blob/master/demo3/2.js)
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/article/blob/master/js-sort-algorithm.md)  
