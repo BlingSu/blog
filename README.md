@@ -11,6 +11,7 @@
     - [抽象工厂模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/3.js)
     - [建造者模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/4.js)
     - [原型模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/5.js)
+    - [单例模式](https://github.com/angelasubi/design-patterns/blob/master/demo2/6.js)
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/article/blob/master/js-sort-algorithm.md)  
