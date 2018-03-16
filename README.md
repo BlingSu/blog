@@ -19,6 +19,8 @@
     - [桥接模式](https://github.com/angelasubi/design-patterns/blob/master/demo3/4.js)
     - [组合模式](https://github.com/angelasubi/design-patterns/blob/master/demo3/5.js)
     - [享元模式](https://github.com/angelasubi/design-patterns/blob/master/demo3/6.js)
+- <a href="javascript:;">行为型设计模式</a>
+    - [模版方法模式](https://github.com/angelasubi/design-patterns/blob/master/demo4/1.js)
 
 ### JS
 - [JavaScript排序算法](https://github.com/angelasubi/article/blob/master/js-sort-algorithm.md)  
