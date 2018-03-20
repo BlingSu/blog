@@ -32,7 +32,7 @@
 - [ES5,ES6,ES7新特性,方法](https://github.com/angelasubi/article/blob/master/es5-es6-es7.md)  
 - [常用meta整理](https://github.com/angelasubi/article/blob/master/css-meta.md)  
 - [Js和jQuery常用方法对比](https://github.com/angelasubi/article/blob/master/jquery-vs-js.md)
-- [Lodash源码分析](https://github.com/angelasubi/lodash)
+- [Lodash源码分析](https://github.com/angelasubi/article/blob/master/lodash/lodash.md)
 
 ### Vue
 - [高仿Vue音乐播放器](https://github.com/angelasubi/vue-music)  
