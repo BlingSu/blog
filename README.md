@@ -56,6 +56,6 @@
 
 ### NodeJS
 - [Node+MongoDB图书借阅系统](https://github.com/angelasubi/library-borrow)
-- [Node+Express接口](https://github.com/angelasubi/node-express)
+- [图书借阅系统api](https://github.com/angelasubi/node-express)
 - [process对象整理](https://github.com/angelasubi/article/blob/master/node-process.md)
 
