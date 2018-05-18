@@ -24,4 +24,5 @@
     - [观察者模式](https://github.com/angelasubi/design-patterns/blob/master/demo4/2.js)
     - [状态模式](https://github.com/angelasubi/design-patterns/blob/master/demo4/3.js)
     - [策略模式](https://github.com/angelasubi/design-patterns/blob/master/demo4/4.js)
+    - [职责链模式](https://github.com/angelasubi/design-patterns/blob/master/demo4/5.js)
 
