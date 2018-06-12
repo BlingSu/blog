@@ -1,7 +1,6 @@
 # git-shell
 Git常用基础命令
 
-``` bash
 
 # 用户配置
 
@@ -91,4 +90,4 @@ $ git push <remote> <branch>  #上传代码及快速合并
 $ git push <remote> :<branch/tag-name>  #删除远程分支或者标签
 
 $ git push --tags  #上传所有标签
-```
+
