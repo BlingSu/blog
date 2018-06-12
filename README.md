@@ -17,14 +17,25 @@
 
 ## 工程化
 1. [Gulp构建指南](https://github.com/bbbbbbbb888888/blog/blob/master/md/gulp.md)  
-2. [Git常用命令](https://github.com/bbbbbbbb888888/blog/blob/master/md/git-shell.md)  
+2. [Webpack构建指南](https://github.com/bbbbbbbb888888/webpack)  
+3. [Git常用命令](https://github.com/bbbbbbbb888888/blog/blob/master/md/git-shell.md)  
+
+## Http
+1. [Http状态码304](https://github.com/bbbbbbbb888888/blog/blob/master/md/http304.md)
+2. [浅谈从输入URL到页面加载发生了什么](https://github.com/bbbbbbbb888888/blog/blob/master/md/url.md)
+
+## Vue
+1. [Vuex状态管理](https://github.com/bbbbbbbb888888/blog/blob/master/md/vuex.md) 
+2. [Vue图书借阅系统](https://github.com/bbbbbbbb888888/vue-library)
+3. [VueCheckList组件](https://github.com/bbbbbbbb888888/vue2-checklist)
+
+## NodeJs
+1. [Node之process](https://github.com/bbbbbbbb888888/blog/blob/master/md/node-process.md)  
+2. [图书借阅系统(SSR)](https://github.com/bbbbbbbb888888/library-borrow)
+3. [图书借阅系统(Api)](https://github.com/bbbbbbbb888888/node-book-api)
 
 ## 杂项
 1. [常用Meta](https://github.com/bbbbbbbb888888/blog/blob/master/md/css-meta.md)  
-2. [Node之process](https://github.com/bbbbbbbb888888/blog/blob/master/md/node-process.md)  
-3. [Vuex状态管理](https://github.com/bbbbbbbb888888/blog/blob/master/md/vuex.md) 
-4. [Http状态码304](https://github.com/bbbbbbbb888888/blog/blob/master/md/http304.md)
-5. [从输入URL到页面加载发生了什么](https://github.com/bbbbbbbb888888/blog/blob/master/md/url.md)
 
 ## JavaScript设计模式(持续更新)
 - <a href="javascript:;">面向对象编程</a>
