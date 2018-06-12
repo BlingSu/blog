@@ -293,3 +293,7 @@ obj.prototype.getMsg = function() {
   return this.name
 }
 ```
+
+## 总结
+
+具体性的了解了闭包的原理以及使用场景😁，待续
