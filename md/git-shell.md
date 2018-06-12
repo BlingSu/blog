@@ -3,19 +3,19 @@ Git常用基础命令
 
 
 # 用户配置
-
+```bash
 $ git config --global user.name 'xxx'  #配置用户名
 
 $ git config --global user.email 'xxx@xxx.com'  #配置邮箱
-
+```
 # 创建版本库
-
+```bash
 $ git clone <url>  #克隆远程版本库
 
 $ git init  #初始化本地版本库
-
+```
 # 修改和提交
-
+```bash
 $ git status  #查看状态
 
 $ git diff  #查看变更内容
@@ -33,25 +33,25 @@ $ git rm --cached <file>  #停止跟踪文件但不删除
 $ git commit -m 'commit message'  #提交所有更新的文件
 
 $ git commit --amend  #修改最后一次提交
-
+```
 # 查看提交历史
-
+```bash
 $ git log  #查看提交的历史
 
 $ git log -p <file>  #查看指定文件的提交历史
 
 $ git blame <file>  #以列表方式查看指定文件的提交历史
-
+```
 # 撤销
-
+```bash
 $ git reset --hard HEAD  #撤销工作目录中所有未提交文件的修改内容
 
 $ git checkout HEAD <file>  #撤销指定的未提交文件的修改内容
 
 $ git revert <commit>  #撤销指定的提交
-
+```
 # 分支与标签
-
+```bash
 $ git branch  #显示所有本地分支
 
 $ git checkout <branch/tag>  #切换到指定分支或标签
@@ -65,15 +65,15 @@ $ git tag  #列出所有本地标签
 $ git tag <tagname>  #基于最新提交创建标签
 
 $ git tag -d <tagname>  #删除标签
-
+```
 # 合并与衍合
-
+```bash
 $ git merge <branch>  #合并指定分支到当前分支
 
 $ git rebase <branch>  #衍合指定分支到当前分支
-
+```
 # 远程操作
-
+```bash
 $ git remote -v  #查看远程版本库信息
 
 $ git remote show <remote>  #查看指定远程版本库信息
@@ -91,3 +91,4 @@ $ git push <remote> :<branch/tag-name>  #删除远程分支或者标签
 
 $ git push --tags  #上传所有标签
 
+```
