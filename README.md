@@ -10,6 +10,7 @@
 3. [JS基础算法](https://github.com/bbbbbbbb888888/blog/blob/master/md/js-common-algorithm.md)  
 4. [JS排序算法](https://github.com/bbbbbbbb888888/blog/blob/master/md/js-sort-algorithm.md)  
 5. [JS正则](https://github.com/bbbbbbbb888888/blog/blob/master/md/regexp.md)  
+5. [JS闭包](https://github.com/bbbbbbbb888888/blog/blob/master/md/closure.md)  
 6. [深入原型到原型链](https://github.com/bbbbbbbb888888/blog/blob/master/md/prototype.md)
 7. [JS浅拷贝与深拷贝](https://github.com/bbbbbbbb888888/blog/blob/master/md/copy.md)
 8. [深入理解call和apply](https://github.com/bbbbbbbb888888/blog/blob/master/md/call-apply.md)
