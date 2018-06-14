@@ -90,3 +90,44 @@ console.log(h()) // dragon
 var o = {a: 1, f:f, g:g, h:h}
 console.log(o.f(), o.g(), o.h()) // 1, dragon. dragon
 ```
+
+### 箭头函数
+
+在箭头函数中，this与封闭词法上下文的this保持一致。在全局代码中，将设置为全局对象。
+
+```js
+var globalObject = this
+var foo (() => this)
+console.log(foo() === globalObject) // true
+```
+
+如果 this 传递给call, bind, apply。那么会被忽略，不过可以为调用添加参数，但是第一个参数thisArg必须设置为null
+
+```js
+var obj = {foo: foo}
+console.log(obj.foo() === globalObject) // true
+
+// 用call 来设定 this
+console.log(foo.call(obj) === globalObject) // true
+
+// 使用bind
+foo = foo.bind(obj)
+console.log(foo() === globalObject) // true
+```
+
+不管怎么样，foo的this被设置为它的创建时的上下文，同样适用于其他函数内创建的箭头函数，箭头函数的this被设置为封闭的词法上下文。
+
+```js
+var obj = {
+  bar() {
+    var x = (() => this)
+    return x
+  }
+}
+
+var fn = obj.bar()
+console.log(fn() === obj)
+
+var fn2 = obj.bar
+console.log(fn2()() === window)
+```
