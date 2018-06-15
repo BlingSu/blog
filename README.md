@@ -15,6 +15,7 @@
 7. [JS浅拷贝与深拷贝](https://github.com/angelasubi/blog/blob/master/md/copy.md)
 8. [深入理解call和apply](https://github.com/angelasubi/blog/blob/master/md/call-apply.md)
 9. [JS Arguments理解](https://github.com/angelasubi/blog/blob/master/md/arguments.md)
+9. [JS this理解](https://github.com/angelasubi/blog/blob/master/md/this.md)
 
 ## 工程化
 1. [Gulp构建指南](https://github.com/angelasubi/blog/blob/master/md/gulp.md)  
