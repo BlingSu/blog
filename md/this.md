@@ -118,16 +118,99 @@ console.log(foo() === globalObject) // true
 不管怎么样，foo的this被设置为它的创建时的上下文，同样适用于其他函数内创建的箭头函数，箭头函数的this被设置为封闭的词法上下文。
 
 ```js
+/*
+ * 创建一个含有bar方法的obj对象
+ * bar 返回一个函数， 函数返回this
+ * 返回的函数是由箭头函数创建的
+ * 所以this永远绑定到了外层函数的this
+ * bar的值可以在调用中设置，反过来又设置啦返回函数的值
+ * 
+*/
 var obj = {
   bar() {
     var x = (() => this)
     return x
   }
 }
-
+// obj对象的一个方法来调用bar，把this绑定到obj，返回的函数的引用赋值给fn
 var fn = obj.bar()
-console.log(fn() === obj)
+// 直接掉用fn不设置this，在这里是全局，严格模式下是undefined
+console.log(fn() === obj) // true
 
+// 引用 没调用
 var fn2 = obj.bar
-console.log(fn2()() === window)
+// 调用后 this指向window，从bar继承了this
+console.log(fn2()() === window) // true
 ```
+
+### 作为对象的方法
+
+当函数作为对象里的方法被调用时，它们的this是调用该函数的对象
+
+```js
+var obj = {
+  prop: 22,
+  f() {
+    return this.prop
+  }
+}
+console.log(obj.f()) // 22
+```
+
+可以先定义函数，然后附属到对象里
+
+```js
+var obj = {prop: 22}
+function func() {
+  return this.props
+}
+obj.f = func
+
+console.log(obj.f()) // 22
+```
+
+#### 原型链中的this
+
+如果方法存在于一个对象的原型链上，那么this指向的是调用这个方法的对象。
+
+```js
+var o = {
+  f() {
+    return this.a + this.b
+  }
+}
+
+var p = Object.create(o)
+p.a = 1
+p.b = 4
+console.log(p.f()) // 5
+```
+对象p没有属于自己的f属性，所以它的f属性继承于原型。虽然是在o中找的f属性。查找的过程首先从p.f的引用开始，所以函数的this指向p，因为f是最为p的方法掉用的，所以它的this指向了p。
+
+#### getter和setter中的this
+
+函数在一个getter或者setter中被调用也可以，都会把this绑定到设置或者获取属性的对象上。
+
+```js
+function sum() {
+  return this.a + this.b + this.c
+}
+var o = {
+  a: 1,
+  b: 2,
+  c: 3,
+  get average() {
+    return (this.a + this.b + this.c) / 3
+  }
+}
+
+Object.defineProperty(o, 'sum', {
+  get: sum,
+  enumerable: true,
+  configurable: true
+})
+
+consoe.log(o.average, o.sum) // 2, 6
+```
+
+### 作为构造函数
