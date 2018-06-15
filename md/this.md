@@ -214,3 +214,43 @@ consoe.log(o.average, o.sum) // 2, 6
 ```
 
 ### 作为构造函数
+
+当创建构造函数的时候，它的this被绑定到正在构造的新对象
+
+```js
+function F() {
+  this.a = 22
+}
+var o = new F()
+console.log(o.a) // 22
+
+
+function F2() {
+  this.a = 22
+  return {a: 2333}
+}
+o = new F2()
+console.log(o.a) // 2333
+```
+
+在调用构造函数F2的时候，手动设置了返回对象，与this绑定的默认对象被丢弃了。所以是 2333
+
+### 作为DOM事件的处理函数
+
+当函数被用作事件处理函数时，它的this指向触发事件的元素
+
+```js
+var eles = document.getelementsByTagName('*')
+
+for (let i = 0; i < eles.length; i++) {
+  eles[i].addEventListener('click', () => {
+    console.log(this)
+  }, false)
+}
+```
+
+### 作为内联事件处理函数
+
+```html
+<button onclick="alert(this)"></button>
+```
