@@ -30,6 +30,7 @@
 1. [Vuex状态管理](https://github.com/angelasubi/blog/blob/master/md/vuex.md) 
 2. [Vue图书借阅系统](https://github.com/angelasubi/vue-library)
 3. [VueCheckList组件](https://github.com/angelasubi/vue2-checklist)
+4. [Loading加载(Vue2.0+Svg)组件](https://github.com/angelasubi/svg-loading)
 
 ## Node
 1. [Node之process](https://github.com/angelasubi/blog/blob/master/md/node-process.md)  
