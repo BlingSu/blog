@@ -40,6 +40,7 @@
 
 ## 杂项
 1. [常用Meta](https://github.com/angelasubi/blog/blob/master/md/css-meta.md)  
+2. [图片懒加载](https://github.com/angelasubi/blog/blob/master/md/img-lazyload.md)  
 
 ## JavaScript设计模式(持续更新)
 - <a href="javascript:;">面向对象编程</a>
