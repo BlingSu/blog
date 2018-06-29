@@ -124,4 +124,4 @@ FALLBACK:
 
 
 ### 扩展阅读
-- [MDN的HTTP缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
+- 来自MDN的[HTTP缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
