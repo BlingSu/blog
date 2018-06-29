@@ -123,5 +123,5 @@ FALLBACK:
 * 减少对HTTPS加密协议的使用
 
 
-### 扩展
-[MDN的HTTP缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
+### 扩展阅读
+- [MDN的HTTP缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
