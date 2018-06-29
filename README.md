@@ -26,6 +26,8 @@
 1. [HTTP状态码304](https://github.com/angelasubi/blog/blob/master/md/http304.md)
 2. [HTTP Options](https://github.com/angelasubi/blog/blob/master/md/options.md)
 3. [浅谈从输入URL到页面加载发生了什么](https://github.com/angelasubi/blog/blob/master/md/url.md)
+4. [静态资源加载和更新的策略](https://github.com/angelasubi/blog/blob/master/md/cache.md)
+
 
 ## Vue
 1. [Vuex状态管理](https://github.com/angelasubi/blog/blob/master/md/vuex.md) 
