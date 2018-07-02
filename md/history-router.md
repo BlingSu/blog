@@ -77,7 +77,7 @@ class Router {
       current.addEventListener('click', e => {
         e.preventDefault()
         const url = current.getAttribute('data-href')
-        history.pusState({}, null, url)
+        history.pushState({}, null, url)
         this.update(url)
       }, false)
     }
@@ -121,6 +121,6 @@ init初始化函数，首先需要获取所有特殊的链接标签，然后监�
 ## 总结
 通常点击页面a链接，页面会刷新跳转，所以需要监听页面所有a链接点击事件，并阻止默认事件, 然后调用 history.pushState() 方法来实现路由切换。  
 当活动历史记录条目更改时，将触发 popstate 事件, 需要注意的是，调用 history.pushState() 和 history.replaceState() 不会触发 popstate 事件。只有在做出浏览器动作时，才会触发该事件，如用户点击浏览器的回退/前进按钮。
-
+> 注意: 这个实现的样本需要在服务器才能查看
 ## 参考
 [History API](https://developer.mozilla.org/en-US/docs/Web/API/History)
