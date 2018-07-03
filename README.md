@@ -16,6 +16,7 @@
 8. [深入理解call和apply](https://github.com/angelasubi/blog/blob/master/md/call-apply.md)
 9. [JS Arguments理解](https://github.com/angelasubi/blog/blob/master/md/arguments.md)
 9. [JS this理解](https://github.com/angelasubi/blog/blob/master/md/this.md)
+10. [JS 模块化理解](https://github.com/angelasubi/blog/blob/master/md/module.md)
 
 ## 工程化
 1. [Gulp构建指南](https://github.com/angelasubi/blog/blob/master/md/gulp.md)  

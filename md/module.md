@@ -338,3 +338,20 @@ define(function(require, exports. module) {
   b.doSth()   // 依赖就近，延迟执行
 })
 ```
+## ES6
+可以参考[ES新特性的模块](https://github.com/angelasubi/blog/blob/master/md/es5-es6-es7.md)
+
+
+## 总结
+简单的来理解写AMD和CMD的差别。 
+1. 对于依赖的模块，AMD是<b>提前执行</b>，CMD是<b>延迟执行</b>
+2. CMD喜欢<b>依赖就近</b>，AMD喜欢<b>依赖前置</b>
+> 注：AMD也支持CMD的写法，但是作者喜欢AMD的写法哈哈哈～
+
+3. AMD的 API 默认是一个当多个用，CMD的API严格区分，喜欢自己干自己的。比如:
+* ADM中，require分全局，局部。CMD没有require，而是更具模块的完备性来实现模块系统的加载启动
+* CMD里面，每个API都是简单存粹的。
+
+## 参考链接
+AMD规范: [这里](https://link.zhihu.com/?target=https%3A//github.com/amdjs/amdjs-api/wiki/AMD)
+CMD规范: [这里](https://link.zhihu.com/?target=https%3A//github.com/seajs/seajs/issues/242)
