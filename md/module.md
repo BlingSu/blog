@@ -349,9 +349,9 @@ define(function(require, exports. module) {
 > 注：AMD也支持CMD的写法，但是作者喜欢AMD的写法哈哈哈～
 
 3. AMD的 API 默认是一个当多个用，CMD的API严格区分，喜欢自己干自己的。比如:
-* ADM中，require分全局，局部。CMD没有require，而是更具模块的完备性来实现模块系统的加载启动
+* ADM中，require分全局，局部。CMD没有require，而是提供 seajs.use() 来实现模块系统的加载启动
 * CMD里面，每个API都是简单存粹的。
 
 ## 参考链接
-AMD规范: [这里](https://link.zhihu.com/?target=https%3A//github.com/amdjs/amdjs-api/wiki/AMD)
+AMD规范: [这里](https://link.zhihu.com/?target=https%3A//github.com/amdjs/amdjs-api/wiki/AMD)  
 CMD规范: [这里](https://link.zhihu.com/?target=https%3A//github.com/seajs/seajs/issues/242)
