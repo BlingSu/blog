@@ -76,3 +76,53 @@ PubSub.publish('event')
 // event release
 
 ```
+
+在上述代码中，一个事件只能绑定一个操作，并且取消订阅会把整个事件删除掉。所以应该写一个事件绑定多个操作的，并且退订的时候是退订一个事件上的操作，而不是删除所有事件，所以我们应该一是一个事件绑定多个操作，用数组把操作保存起来，发布时订按订阅顺序执行，退订时删除对应数组的元素就行了。
+
+```js
+var PubSub = (function(){
+  var queue = {}
+  var subscribe = function(event, fn) {
+    if (!queue[event]) {
+      queue[event] = []
+      queue[event].push(fn)
+    }
+  }
+  var publish = function(event) {
+    var eventQueue = queue[event],
+        len = eventQueue.length
+    if (eventQueue) {
+      eventQueue.forEach((item, index) => {
+        item()
+      })
+    }
+  }
+  var off = function(event, fn) {
+    var eventQueue = queue[event]
+    if (eventQueue) {
+      queue[event] = eventQueue.filter(item => item !== fn)
+    }
+  }
+
+  return {
+    subscribe: subscribe,
+    publish: publish,
+    off: off
+  }
+})()
+```
+
+测试一波：
+```js
+function first() { console.log(`event a publish first`) }
+
+PubSub.subscribe(`a`, first)
+PubSub.subscribe(`a`, () => { console.log(`event a publish second`) })
+PubSub.publish(`a`)
+PubSub.publish(`a`)
+```
+
+## 总结
+以上，如果还是不明白的话可以这么理解：   
+
+假设我去报刊亭订了一本书籍，当老板把书籍送给我了，我去领了看。在这里<b>“我”</b>就是订阅者，<b>"报刊亭"</b>就是发布者，当书籍送到的时候（状态发生了改变，通知了我，也就是订阅者），我去领回来看了一下（做了某些操作）。
