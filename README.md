@@ -16,6 +16,7 @@
 9. [JS this理解](https://github.com/angelasubi/blog/blob/master/md/this.md)
 10. [JS 模块化理解](https://github.com/angelasubi/blog/blob/master/md/module.md)
 11. [JS 发布-订阅模式](https://github.com/angelasubi/blog/blob/master/md/pub-sub.md)
+12. [JS 图片懒加载](https://github.com/angelasubi/img-lazyload)
 
 ## 工程化
 1. [Gulp构建指南](https://github.com/angelasubi/blog/blob/master/md/gulp.md)  
