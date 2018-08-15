@@ -71,4 +71,5 @@
     - [状态模式](https://github.com/angelasubi/blog/blob/master/design/design4/3.js)
     - [策略模式](https://github.com/angelasubi/blog/blob/master/design/design4/4.js)
     - [职责链模式](https://github.com/angelasubi/blog/blob/master/design/design4/5.js)
+    - [命令模式](https://github.com/angelasubi/blog/blob/master/design/design4/6.js)
 
