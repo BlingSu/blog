@@ -46,6 +46,7 @@
 2. [图片懒加载](https://github.com/angelasubi/blog/blob/master/md/img-lazyload.md)  
 3. [Hash实现一个简单的前端路由](https://github.com/angelasubi/blog/blob/master/md/hash-router.md)  
 4. [History实现一个前端路由](https://github.com/angelasubi/blog/blob/master/md/history-router.md)  
+5. [nginx基本配置和参数说明](https://github.com/angelasubi/blog/blob/master/md/nginx-conf.md)
 
 ## JavaScript设计模式(持续更新)
 - <a href="javascript:;">面向对象编程</a>
