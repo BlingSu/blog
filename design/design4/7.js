@@ -60,7 +60,7 @@ var Visitor = (function() {
       return Array.prototype.pop.apply(arguments[0])
     }
   }
-})
+})()
 
 /**
  * 创建一个对象，他是没有length的，通过push pop可以更像一个数组。
@@ -69,4 +69,4 @@ var Visitor = (function() {
 var a = new Object()
 console.log(a.length)  //  undefined
 Visitor.push(a, 1, 2, 3, 4)
-console.log(a.length). // 4
+console.log(a.length) // 4
