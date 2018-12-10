@@ -79,3 +79,5 @@
     - [迭代器模式](https://github.com/angelasubi/blog/blob/master/design/design4/9.js)
     - [解释器模式](https://github.com/angelasubi/blog/blob/master/design/design4/11.js)
 
+- <a href="javascript:;">技巧型设计模式</a>
+    - [链模式](https://github.com/angelasubi/blog/blob/master/design/design5/1.js)
