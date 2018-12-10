@@ -75,6 +75,7 @@
     - [命令模式](https://github.com/angelasubi/blog/blob/master/design/design4/6.js)
     - [访问者模式](https://github.com/angelasubi/blog/blob/master/design/design4/7.js)
     - [中介者模式](https://github.com/angelasubi/blog/blob/master/design/design4/8.js)
-    - [迭代器模式](https://github.com/angelasubi/blog/blob/master/design/design4/9.js)
     - [备忘录模式](https://github.com/angelasubi/blog/blob/master/design/design4/10.js)
+    - [迭代器模式](https://github.com/angelasubi/blog/blob/master/design/design4/9.js)
+    - [解释器模式](https://github.com/angelasubi/blog/blob/master/design/design4/11.js)
 
