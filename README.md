@@ -84,3 +84,5 @@
     - [委托模式](https://github.com/angelasubi/blog/blob/master/design/design5/2.js)
     - [数据访问对象模式](https://github.com/angelasubi/blog/blob/master/design/design5/3.js)
     - [节流模式](https://github.com/angelasubi/blog/blob/master/design/design5/4.js)
+    - [简单模板模式](https://github.com/angelasubi/blog/blob/master/design/design5/5.js)
+    - [惰性模式](https://github.com/angelasubi/blog/blob/master/design/design5/6.js)
