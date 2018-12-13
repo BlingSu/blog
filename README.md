@@ -86,4 +86,5 @@
     - [节流模式](https://github.com/angelasubi/blog/blob/master/design/design5/4.js)
     - [简单模板模式](https://github.com/angelasubi/blog/blob/master/design/design5/5.js)
     - [惰性模式](https://github.com/angelasubi/blog/blob/master/design/design5/6.js)
-    - [参与者模式](https://github.com/angelasubi/blog/blob/master/design/design5/6.js)
+    - [参与者模式](https://github.com/angelasubi/blog/blob/master/design/design5/7.js)
+    - [等待者模式](https://github.com/angelasubi/blog/blob/master/design/design5/8.js)
