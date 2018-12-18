@@ -1,6 +1,4 @@
-# blog  🐲
-
-主要记录一些比较紊乱，常见的问题。😁  
+# blog
 
 ## JS
 1. [ES5Array](https://github.com/angelasubi/blog/blob/master/md/es5-array.md)  
