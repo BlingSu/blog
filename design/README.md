@@ -1,3 +1,5 @@
+# JavaScript设计模式
+
 - <a href="javascript:;">面向对象编程</a>
     - [函数编写的几种方式](https://github.com/angelasubi/blog/blob/master/design/design1/1.js)
     - [封装-继承-多态](https://github.com/angelasubi/blog/blob/master/design/design1/2.js)
