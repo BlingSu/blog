@@ -26,7 +26,7 @@
   
   #### 2.1 css3有哪些新属性
   1. 边框:
-  * <font color=#DC143C size=5>border-radius</font>: 圆角边框
+  * <font color=#DC143C>border-radius</font>: 圆角边框
   * <font color="#DC143C">box-shadow</font>:  边框阴影
   * <font color="#DC143C">border-image</font>: 边框图片
   2. 背景:
