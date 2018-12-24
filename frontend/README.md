@@ -4,10 +4,12 @@
 ## 目录
 * HTML
 * CSS/CSS3
+  - [css3有哪些新属性](#21-css3有哪些新属性)
 * Javascript
   - [数据类型](#31-数据类型)
   - [闭包](#32-闭包)
 * Http
+  - [http和https基本概念](#41-http和https基本概念)
 * Vue
 * React
 * Webpack
@@ -21,6 +23,44 @@
 
 ### 一、HTML  
 ### 二、CSS/CSS3  
+  
+  #### 2.1 css3有哪些新属性
+  1. 边框:
+  * <font color="#DC143C">border-radius</font>: 圆角边框
+  * <font  color="#DC143C">box-shadow</font>:  边框阴影
+  * <font  color="#DC143C">border-image</font>: 边框图片
+  2. 背景:
+  * <font color="#DC143C">background-size</font>: 规定背景图片尺寸
+  * <font color="#DC143C">background-origin</font>: 规定背景图片的定位区域
+  3. 文本效果:
+  * <font color="#DC143C">text-shadow</font>: 文本应用阴影
+  * <font color="#DC143C">word-wrap</font>: 允许文本进行换行
+  4. 字体:
+  * <font color="#DC143C">@font-face</font>: 规定自定义字体
+  5. 2D转换(<font color="#DC143C">transform</font>):
+  * <font color="#DC143C">translate()</font>: 元素从当前位置移动(x,y)坐标
+  * <font color="#DC143C">rotate()</font>: 顺时针旋转角度(负值为逆时针)
+  * <font color="#DC143C">scale()</font>: 元素尺寸增加或者减少(宽度和高度, x轴和y轴)
+  * <font color="#DC143C">skew()</font>: 元素翻转给定的角度(x,y)
+  * <font color="#DC143C">matrix()</font>: 把2d转换方法组合到一起,需要6个参数，包括旋转、缩放、移动、倾斜元素。
+  6. 3D转换:
+  * <font color="#DC143C">rotateX()</font>: 元素围绕X轴给定的度数进行旋转
+  * <font color="#DC143C">rotateY()</font>: 元素围绕Y轴给定的度数进行旋转
+  7. transition: 过度效果，让页面变化更加平滑圆润
+  * <font color="#DC143C">transition-property</font>: 执行动画对应的属性，例如color,background等，可以用all来指定所有的属性
+  * <font color="#DC143C">transition-duration</font>: 过度动画的一个持续时间
+  * <font color="#DC143C">transition-timing-function</font>: 在延续时间，动画变化的速率
+  * <font color="#DC143C">transition-dealy</font>: 延迟多久后开始动画
+  * <font color="#DC143C"></font>:
+  8. animation: 动画
+  * <font color="#DC143C">animation-name</font>: 定义动画名称
+  * <font color="#DC143C">animation-duration</font>: 元素播放动画所持续的时间
+  * <font color="#DC143C">animation-timing-function</font>: 动画的播放方式
+  * <font color="#DC143C">animation-delay</font>: 元素动画开始时间
+  * <font color="#DC143C">animation-iteration-count</font>: 元素播放动画的循环次
+  * <font color="#DC143C">animation-direction</font>: 元素动画播放的方向
+  * <font color="#DC143C">animation-play-state</font>: 元素动画的播放状态
+  > 详情部分可以参考[w3school](http://www.w3school.com.cn/css3/index.asp)
 ### 三、Javascript   
 
   #### 3.1 数据类型  
