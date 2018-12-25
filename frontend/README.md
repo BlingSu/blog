@@ -183,7 +183,7 @@
   > [请看这里](https://github.com/angelasubi/blog/blob/master/md/call-apply.md)
 
   #### 3.7 如何实现一个Promise
-  > [请看这里]()
+  > [请看这里](https://github.com/angelasubi/blog/tree/master/frontend/promise)
 
 ### 四、 HTTP
 
