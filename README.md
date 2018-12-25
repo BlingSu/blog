@@ -4,8 +4,6 @@
 
 ## JavaScript设计模式([持续更新](https://github.com/angelasubi/blog/tree/master/design/README.md))
 
-## 前端面试总结([持续更新](https://github.com/angelasubi/blog/tree/master/frontend/README.md))
-
 ## JS
 1. [ES5Array](https://github.com/angelasubi/blog/blob/master/md/es5-array.md)  
 2. [ES5,6,7新特性](https://github.com/angelasubi/blog/blob/master/md/es5-es6-es7.md)  
@@ -21,6 +19,8 @@
 10. [JS 模块化理解](https://github.com/angelasubi/blog/blob/master/md/module.md)
 11. [JS 发布-订阅模式](https://github.com/angelasubi/blog/blob/master/md/pub-sub.md)
 12. [JS 图片懒加载](https://github.com/angelasubi/img-lazyload)
+13. [如何实现一个Promise](https://github.com/angelasubi/blog/tree/master/frontend/promise)
+
 
 ## 工程化
 1. [Gulp构建指南](https://github.com/angelasubi/blog/blob/master/md/gulp.md)  
