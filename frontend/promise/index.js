@@ -1,3 +1,10 @@
+/*
+ * @author: angelasu
+ * @date: 2018/12/25
+ * @description: 实现一个Promise
+ */
+
+
 class testPromise {
   constructor(fn) {
     this.status = 'pending'
