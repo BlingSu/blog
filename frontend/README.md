@@ -14,7 +14,6 @@
   - [call和apply的区别是什么](#36-call和apply的区别是什么)
   - [如何实现一个Promise](#37-如何实现一个Promise)
 * Http
-  - [http和https基本概念](#41-http和https基本概念)
 * Vue
 * React
 * Webpack
@@ -186,7 +185,3 @@
   > [请看这里](https://github.com/angelasubi/blog/tree/master/frontend/promise)
 
 ### 四、 HTTP
-
-  #### 4.1 http和https基本概念
-  HTTP是一种能够获取如 HTML 这样的网络资源的 protocol(通讯协议)。它是是一种 client-server 协议。它超文本传输协议，是互联网上应用最为广泛的一种网络协议，是一个客户端和服务器端请求和应答的标准（TCP），用于从WWW服务器传输超文本到本地浏览器的传输协议，它可以使浏览器更加高效，使网络传输减少。  
-  HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。一个网站接受一个HTTP的请求，然后跳转到HTTPS，用户可能在开始跳转前，通过没有加密的方式和服务器对话，比如，用户输入http://github.com或者直接github.com。这样存在中间人攻击潜在威胁，跳转过程可能被恶意网站利用来直接接触用户信息，而不是原来的加密信息。网站通过HTTP Strict Transport Security通知浏览器，这个网站禁止使用HTTP方式加载，浏览器应该自动把所有尝试使用HTTP的请求自动替换为HTTPS请求。
