@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>promise-test</title>
+</head>
+<body>
+</body>
+<script src="./index.js"></script>
+<script>
+  let test = 1
+
+  new testPromise((resolve, reject) => {
+    if (test) {
+      resolve('ok!')
+    } else {
+      reject('err')
+    }
+  }).then(res => {
+    console.log(res)
+  })
+
+</script>
+</html>

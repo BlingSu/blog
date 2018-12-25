@@ -12,6 +12,7 @@
   - [如何实现apply函数](#34-如何实现apply函数)
   - [如何实现bind函数](#35-如何实现bind函数)
   - [call和apply的区别是什么](#36-call和apply的区别是什么)
+  - [如何实现一个Promise](#37-如何实现一个Promise)
 * Http
   - [http和https基本概念](#41-http和https基本概念)
 * Vue
@@ -178,9 +179,11 @@
   }
   ```
 
-  #### 3.6 call和applay的区别是什么
+  #### 3.6 call和apply的区别是什么
   > [请看这里](https://github.com/angelasubi/blog/blob/master/md/call-apply.md)
 
+  #### 3.7 如何实现一个Promise
+  > [请看这里]()
 
 ### 四、 HTTP
 
