@@ -95,7 +95,7 @@ console.log(b) // 10
 
 ```js
 var a = {}
-var b = {}
+var b = a
 a.name = 'dragon'
 
 console.log(a.name) // dragon
