@@ -11,12 +11,12 @@
 4. [基础的一些算法操作](https://github.com/angelasubi/blog/blob/master/md/js/js-commonAlgorithm.md)  
 5. [深拷贝和浅拷贝的玩法](https://github.com/angelasubi/blog/blob/master/md/js/js-copy.md)  
 6. [es5数组的一些基本操作](https://github.com/angelasubi/blog/blob/master/md/js/js-es5Array.md)  
-7. [ES5,6,7新特性](https://github.com/angelasubi/blog/blob/master/md/js/js-es567.md)  
+7. [ES系列的一些新特性](https://github.com/angelasubi/blog/blob/master/md/js/js-es567.md)  
 8. [怎么理解模块化](https://github.com/angelasubi/blog/blob/master/md/js/js-module.md)  
 9. [深入原型到原型链](https://github.com/angelasubi/blog/blob/master/md/js/js-prototype.md)  
 10. [如何简单的实现发布订阅](https://github.com/angelasubi/blog/blob/master/md/js/js-pubSub.md)   
 11. [基础的正则表达式](https://github.com/angelasubi/blog/blob/master/md/js/js-regexp.md)  
-12. [常用的排序算法](https://github.com/angelasubi/blog/blob/master/md/js/js-sortAalgorithm.md)  
+12. [常用的排序算法](https://github.com/angelasubi/blog/blob/master/md/js/js-sortAlgorithm.md)  
 13. [谈谈this到底是什么](https://github.com/angelasubi/blog/blob/master/md/js/js-this.md)  
 14. [如何实现一个Promise](https://github.com/angelasubi/blog/tree/master/frontend/promise)
 
@@ -27,8 +27,8 @@
 2. [从0开始的webpack构建(webpack1.3)](https://github.com/angelasubi/webpack)  
 
 ## Http
-1. [如何产生304状态码](https://github.com/angelasubi/blog/blob/master/md/http/http-http304.md)
-2. [options到底屎什么请求](https://github.com/angelasubi/blog/blob/master/md/http/http-options.md)
+1. [如何产生304状态码](https://github.com/angelasubi/blog/blob/master/md/http/http-304.md)
+2. [options到底是什么请求](https://github.com/angelasubi/blog/blob/master/md/http/http-options.md)
 3. [浅谈从输入URL到页面加载发生了什么](https://github.com/angelasubi/blog/blob/master/md/http/http-url.md)
 4. [静态资源加载和更新的策略](https://github.com/angelasubi/blog/blob/master/md/http/http-cache.md)
 
