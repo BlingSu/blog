@@ -31,6 +31,7 @@
 2. [options到底是什么请求](https://github.com/angelasubi/blog/blob/master/md/http/http-options.md)
 3. [浅谈从输入URL到页面加载发生了什么](https://github.com/angelasubi/blog/blob/master/md/http/http-url.md)
 4. [静态资源加载和更新的策略](https://github.com/angelasubi/blog/blob/master/md/http/http-cache.md)
+4. [关于跨域和代理的一些知识](https://github.com/angelasubi/blog/blob/master/md/http/http-crossDomain.md)
 
 
 ## Vue
