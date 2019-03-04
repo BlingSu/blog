@@ -8,3 +8,4 @@
 * [Reverse Integer](https://github.com/angelasubi/blog/blob/master/leetcode/7.%20Reverse%20Integer.js)
 * [String to Integer (atoi)](https://github.com/angelasubi/blog/blob/master/leetcode/8.%20String%20to%20Integer%20(atoi).js)
 * [Partition List](https://github.com/angelasubi/blog/blob/master/leetcode/86.%20Partition%20List.js)
+* [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
