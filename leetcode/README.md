@@ -7,5 +7,6 @@
 * [Longest Palindromic Substring](https://github.com/angelasubi/blog/blob/master/leetcode/5.%20Longest%20Palindromic%20Substring.js)
 * [Reverse Integer](https://github.com/angelasubi/blog/blob/master/leetcode/7.%20Reverse%20Integer.js)
 * [String to Integer (atoi)](https://github.com/angelasubi/blog/blob/master/leetcode/8.%20String%20to%20Integer%20(atoi).js)
+* [Roman to Integer](https://github.com/angelasubi/blog/blob/master/leetcode/13.%20Roman%20to%20Integer.js)
 * [Partition List](https://github.com/angelasubi/blog/blob/master/leetcode/86.%20Partition%20List.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
