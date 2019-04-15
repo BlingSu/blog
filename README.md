@@ -50,6 +50,6 @@
 2. [常用Meta](https://github.com/angelasubi/blog/blob/master/md/else/else-cssMeta.md)  
 3. [Hash实现一个简单的前端路由](https://github.com/angelasubi/blog/blob/master/md/else/else-hashRouter.md)  
 4. [History实现一个前端路由](https://github.com/angelasubi/blog/blob/master/md/else/else-historyRouter.md)  
-5. [如何实现图片懒加载](https://github.com/angelasubi/blog/blob/master/md/else/else-imgLazyLoad.md)  
+5. [如何实现图片懒加载](https://github.com/angelasubi/blog/blob/master/md/else/else-imgLazyload.md)  
 6. [nginx基本配置和参数说明](https://github.com/angelasubi/blog/blob/master/md/else/else-nginxConf.md)
 
