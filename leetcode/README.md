@@ -10,5 +10,7 @@
 * [Roman to Integer](https://github.com/angelasubi/blog/blob/master/leetcode/13.%20Roman%20to%20Integer.js)
 * [Search Insert Position](https://github.com/angelasubi/blog/blob/master/leetcode/35.Search%20Insert%20Position.js)
 * [Maximum Subarray](https://github.com/angelasubi/blog/blob/master/leetcode/53.%20Maximum%20Subarray.js)
+* [Length of Last Word](https://github.com/angelasubi/blog/blob/master/leetcode/58.%20Length%20of%20Last%20Word.js)
+* [Add Binary](https://github.com/angelasubi/blog/blob/master/leetcode/67.%20Add%20Binary.js)
 * [Partition List](https://github.com/angelasubi/blog/blob/master/leetcode/86.%20Partition%20List.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
