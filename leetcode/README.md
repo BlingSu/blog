@@ -14,5 +14,6 @@
 * [Add Binary](https://github.com/angelasubi/blog/blob/master/leetcode/67.%20Add%20Binary.js)
 * [Sqrt(x)](https://github.com/angelasubi/blog/blob/master/leetcode/69.%20Sqrt(x).js)
 * [Climbing Stairs](https://github.com/angelasubi/blog/blob/master/leetcode/70.%20Climbing%20Stairs.js)
+* [Remove Duplicates from Sorted List](https://github.com/angelasubi/blog/blob/master/leetcode/83.%20Remove%20Duplicates%20from%20Sorted%20List.js)
 * [Partition List](https://github.com/angelasubi/blog/blob/master/leetcode/86.%20Partition%20List.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
