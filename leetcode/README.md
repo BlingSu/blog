@@ -19,4 +19,5 @@
 * [Merge Sorted Array](https://github.com/angelasubi/blog/blob/master/leetcode/88.%20Merge%20Sorted%20Array.js)
 * [Same Tree](https://github.com/angelasubi/blog/blob/master/leetcode/100.%20Same%20Tree.js)
 * [Symmetric Tree](https://github.com/angelasubi/blog/blob/master/leetcode/101.%20Symmetric%20Tree.js)
+* [Maximum Depth of Binary Tree](https://github.com/angelasubi/blog/blob/master/leetcode/104.%20Maximum%20Depth%20of%20Binary%20Tree.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
