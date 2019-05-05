@@ -20,4 +20,5 @@
 * [Same Tree](https://github.com/angelasubi/blog/blob/master/leetcode/100.%20Same%20Tree.js)
 * [Symmetric Tree](https://github.com/angelasubi/blog/blob/master/leetcode/101.%20Symmetric%20Tree.js)
 * [Maximum Depth of Binary Tree](https://github.com/angelasubi/blog/blob/master/leetcode/104.%20Maximum%20Depth%20of%20Binary%20Tree.js)
+* [Path Sum](https://github.com/angelasubi/blog/blob/master/leetcode/112.%20Path%20Sum.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
