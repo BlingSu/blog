@@ -23,4 +23,5 @@
 * [Path Sum](https://github.com/angelasubi/blog/blob/master/leetcode/112.%20Path%20Sum.js)
 * [Linked List Cycle](https://github.com/angelasubi/blog/blob/master/leetcode/141.%20Linked%20List%20Cycle.js)
 * [Min Stack](https://github.com/angelasubi/blog/blob/master/leetcode/155.%20Min%20Stack.js)
+* [160. Intersection of Two Linked Lists](https://github.com/angelasubi/blog/blob/master/leetcode/160.%20Intersection%20of%20Two%20Linked%20Lists.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
