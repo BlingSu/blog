@@ -24,4 +24,5 @@
 * [Linked List Cycle](https://github.com/angelasubi/blog/blob/master/leetcode/141.%20Linked%20List%20Cycle.js)
 * [Min Stack](https://github.com/angelasubi/blog/blob/master/leetcode/155.%20Min%20Stack.js)
 * [Intersection of Two Linked Lists](https://github.com/angelasubi/blog/blob/master/leetcode/160.%20Intersection%20of%20Two%20Linked%20Lists.js)
+* [Two Sum II - Input array is sorted](https://github.com/angelasubi/blog/blob/master/leetcode/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
