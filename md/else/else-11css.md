@@ -252,10 +252,10 @@ img {
   color: navajowhite;
   position: absolute;
   top: -1px;
-  lfet: 8px;
+  left: 8px;
 }
 .second {
-  postion: absolute;
+  position: absolute;
   top: 3px;
   left: 7px;
   color: palevioletred;
@@ -265,7 +265,7 @@ img {
   position: absolute;
   top: 6px;
   left: 3px;
-  color: drakturquoise;
+  color: darkorchid;
   mix-blend-mode: color-burn;
 }
 ```
