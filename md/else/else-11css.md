@@ -179,3 +179,55 @@ body {
   height: 100vh;
 }
 ```
+
+
+## 5. <code>filter</code>
+
+[filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)将模糊或颜色偏移等图形效果应用于元素
+
+#### HTML
+
+```html
+<div>
+  <h1>Origin Image:</h1>
+  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg" alt="">
+  <h1>Filtered Images:</h1>
+  <div class="filter1">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg" alt="">
+  </div>
+  <div class="filter2">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg" alt="">
+  </div>
+  <div class="filter3">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg" alt="">
+  </div>
+</div>
+```
+
+#### CSS
+
+```css
+img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+.filter1 img {
+  filter: grayscale(90%) sepia(13%) saturate(700%);
+}
+.filter2 img {
+  filter: hue-rotate(-40deg);
+}
+.filter3 img {
+  filter: contrast(170%) saturate(80%) blur(1px);
+}
+```
+
+<code>drop-shadow</code>可以对图片阴影处理，比如:
+
+```css
+img {
+  filter: drop-shadow(0px 0px 5px magenta);
+}
+```
+
+
