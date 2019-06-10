@@ -231,3 +231,41 @@ img {
 ```
 
 
+## 6. <code>mix-blend-mode</code>
+
+[mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)设置元素的内容如何和父级元素的内容混合。
+
+#### HTML
+```html
+<div>
+  <h1 class="first">GayHub</h1>
+  <h1 class="second">GayHub</h1>
+  <h1 class="third">GayHub</h1>
+</div>
+```
+
+#### CSS
+
+```css
+.first {
+  text-align: center;
+  color: navajowhite;
+  position: absolute;
+  top: -1px;
+  lfet: 8px;
+}
+.second {
+  postion: absolute;
+  top: 3px;
+  left: 7px;
+  color: palevioletred;
+  mix-blend-mode: darken;
+}
+.third {
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  color: drakturquoise;
+  mix-blend-mode: color-burn;
+}
+```
