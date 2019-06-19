@@ -270,4 +270,184 @@ img {
 }
 ```
 
-## 7. <code></code>
+## 7. <code>first-letter</code>
+
+[first-letter](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)CSS伪元素将样式应用于块级元素第一行的第一个字母。
+
+#### HTML
+```html
+<p>Hello World!</p>
+```
+
+#### CSS
+
+```css
+p:first-child:first-letter {
+  font-size: calc(60px + 0.75vw);
+  line-height: 40px;
+  color: indianred;
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  font-family: Sansita One;
+}
+```
+
+## 8. <code>shape-outside</code>
+
+[shape-outside](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)相邻的内联内容应围绕该形状进行包装。
+
+#### HTML
+```html
+  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg" alt="">
+  <p>This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.This is Test World.</p>
+```
+
+#### CSS
+
+```css
+p {
+  font-family: Georgia;
+  font-size: calc(16px + 0.25vw);
+  line-height: 1.6;
+  text-align: left;
+}
+img {
+  width: 200px;
+  height: 500px
+  shape-outside: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560164614955&di=87e74d40d19b39e7fe3625439f0b5813&imgtype=0&src=http%3A%2F%2Fimg3.iqilu.com%2Fdata%2Fattachment%2Fforum%2F201304%2F11%2F111216lztdjx83xagz0ca0.jpg");
+  float: right;
+  margin: 10px;
+}
+body {
+  max-width: 80%;
+  margin: 0 auto;
+}
+```
+
+
+## 9. <code>writing-mode</code>
+
+[writing-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode)设置文本为水平或垂直以及块进展的方向。
+
+#### HTML
+```html
+  <table>
+    <tr>
+      <th>First</th>
+      <th>Second</th>
+      <th>third</th>
+    </tr>
+    <tr>
+      <td class="tb"><span>我是一个假前端！！！</span></td>
+      <td class="lr"><span>我是一个假前端！！！</span></td>
+      <td class="rl"><span>我是一个假前端！！！</span></td>
+    </tr>
+  </table>
+```
+
+#### CSS
+```css
+.tb span {
+  writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: horizontal-tb;
+}
+.lr span {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+.rl span {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+table {
+  border-collapse:collapse;
+}
+td, th {
+  border: 1px black solid; padding: 3px;
+}
+td {
+  width: 70px;height: 70px;
+}
+th {
+  background-color: lightgray;
+}
+```
+
+## 10. <code>Adding gradient to text</code>
+
+主要是通过[-webkit-background-clip:text;]()和[-webkit-text-fill-color: transparent;]()实现的。
+
+#### HTML
+```html
+<p>实话实说，我真的是一名假前端</p>
+```
+
+#### CSS
+
+```css
+p {
+  font-size: 32px;
+  background: linear-gradient(to right, #4364f7, #23d5ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+```
+
+## 11. <code>Smooth scroll snap</code>
+
+[Smooth scroll snap](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)在滚动容器上强制执行严格捕捉点(如果有的情况下)
+
+#### HTML
+
+```html
+  <div class="wrapper">
+    <div>我</div>
+    <div>是</div>
+    <div>假</div>
+    <div>前</div>
+    <div>端</div>
+  </div>
+```
+
+#### CSS
+
+```css
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .wrapper {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 80vw;
+    height: 80vh;
+    flex-flow: column nowrap;
+    scrool-snap-type: y mandatory;
+  }
+  .wrapper > div {
+    text-align: center;
+    scrool-snap-type: center;
+    flex: none;
+    line-height: 3;
+    font-size: 128px;
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper > div:nth-child(even) {
+    background-color: lightsalmon;
+  }
+  .wrapper > div:nth-child(odd) {
+    background-color: lightpink;
+  }
+```
+
+
+## MIT
