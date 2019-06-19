@@ -9,14 +9,20 @@
 #### HTML
 ```html
 <h1>
-  <span>what can I do for you !</span>
+  <span>我是一名菜🐔前端！！！</span>
 </h1>
 ```
 
 #### CSS
 ```css
+body {
+  margn: 0;
+  display: flex;
+  justify-contet: center;
+  align-items: center;
+}
 h1 {
-  max-width: 300px;
+  max-width: 100px;
 }
 h1 span {
   background: blue;
@@ -25,12 +31,6 @@ h1 span {
   line-height: 1.4;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone
-}
-body {
-  margn: 0;
-  display: flex;
-  justify-contet: center;
-  align-items: center;
 }
 ```
 
