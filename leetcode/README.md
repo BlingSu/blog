@@ -21,6 +21,7 @@
 * [Symmetric Tree](https://github.com/angelasubi/blog/blob/master/leetcode/101.%20Symmetric%20Tree.js)
 * [Maximum Depth of Binary Tree](https://github.com/angelasubi/blog/blob/master/leetcode/104.%20Maximum%20Depth%20of%20Binary%20Tree.js)
 * [Binary Tree Level Order Traversal II](https://github.com/angelasubi/blog/blob/master/leetcode/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II.js)
+* [Balanced Binary Tree](https://github.com/angelasubi/blog/blob/master/leetcode/110.%20Balanced%20Binary%20Tree.js)
 * [Minimum Depth of Binary Tree](https://github.com/angelasubi/blog/blob/master/leetcode/111.%20Minimum%20Depth%20of%20Binary%20Tree.js)
 * [Path Sum](https://github.com/angelasubi/blog/blob/master/leetcode/112.%20Path%20Sum.js)
 * [Linked List Cycle](https://github.com/angelasubi/blog/blob/master/leetcode/141.%20Linked%20List%20Cycle.js)
