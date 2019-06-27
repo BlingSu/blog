@@ -36,7 +36,7 @@
 deny和alow是[ngx_http_access_module](http://nginx.org/en/docs/http/ngx_http_access_module.html)中的语法。简单说就是按顺序检查规则，直到匹配为止。在这里，只允许ipv4网络<code>10.1.1.0/16</code>和<code>192.168.1.0/24</code>（不包括<code>192.168.1.0</code>）和ipv6<code>2001:0db8::/32;</code>进行访问，其他全部禁止访问。
 
 <strong>2. 解决跨域</strong>
-> 在这里有一个具体解决跨域的[demo](http://www.baidu.com)    
+> 在这里有一个具体解决跨域的[demo](https://github.com/angelasubi/nginx-proxy-demo)    
 
 在前后端分离调试的时候可以本地直接访问远程接口会造成跨域问题。不过现在一般是通过Node和proxy集成进来解决。只是如果用Nginx的话同样可以解决问题，甚至可以用于生产环境。假设现在本地启动一个Nginx服务，server_name是test-nginx.com，那么如果请求某个线上的接口，浏览器实惠报错的，比如`No 'Access-Control-Allow-origin' header is present on the requested resource`之类的。那么就需要绕开浏览器的跨域限制，我们跨域将域名改成<code>test-nginx.com</code>。同时约定一个url规则来表明代理请求的身份，最后通过Nginx匹配这个规则，将请求代理回原来的域。
 
