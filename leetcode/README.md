@@ -30,6 +30,7 @@
 * [Intersection of Two Linked Lists](https://github.com/angelasubi/blog/blob/master/leetcode/160.%20Intersection%20of%20Two%20Linked%20Lists.js)
 * [Two Sum II - Input array is sorted](https://github.com/angelasubi/blog/blob/master/leetcode/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.js)
 * [Majority Element](https://github.com/angelasubi/blog/blob/master/leetcode/169.%20Majority%20Element.js)
+* [Factorial Trailing Zeroes](https://github.com/angelasubi/blog/blob/master/leetcode/172.%20Factorial%20Trailing%20Zeroes.js)
 * [Power of Two](https://github.com/angelasubi/blog/blob/master/leetcode/231.%20Power%20of%20Two.js)
 * [Word Pattern](https://github.com/angelasubi/blog/blob/master/leetcode/290.%20Word%20Pattern.js)
 * [Arranging Coins](https://github.com/angelasubi/blog/blob/master/leetcode/441.%20Arranging%20Coins.js)
