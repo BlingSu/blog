@@ -34,6 +34,7 @@
 * [Power of Two](https://github.com/angelasubi/blog/blob/master/leetcode/231.%20Power%20of%20Two.js)
 * [Palindrome Linked List](https://github.com/angelasubi/blog/blob/master/leetcode/234.%20Palindrome%20Linked%20List.js)  
 * [Word Pattern](https://github.com/angelasubi/blog/blob/master/leetcode/290.%20Word%20Pattern.js)
+* [Find the Difference](https://github.com/angelasubi/blog/blob/master/leetcode/389.%20Find%20the%20Difference.js) 
 * [Arranging Coins](https://github.com/angelasubi/blog/blob/master/leetcode/441.%20Arranging%20Coins.js)
 * [Monotonic Array](https://github.com/angelasubi/blog/blob/master/leetcode/896.%20Monotonic%20Array.js)
 * [Defanging an IP Address](https://github.com/angelasubi/blog/blob/master/leetcode/1108.Defanging%20an%20IP%20Address.js)
